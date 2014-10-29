@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    
+     <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="com_sina_weibo_sdk_blue">#ff3b5998</color>
+    <color name="com_sina_weibo_sdk_loginview_text_color">#ffffffff</color>
+    <color name="demo">#ffe84111</color>
+</resources>

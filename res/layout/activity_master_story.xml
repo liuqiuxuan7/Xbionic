@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/allbackground"
+    tools:context=".MasterStoryActivity" >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip"
+        android:background="@drawable/topnav" >
+
+        <Button
+            android:id="@+id/btn_story_back"
+            android:layout_width="53.0dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/backbtn" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="达人故事"
+            android:textColor="#ffd7d7d7"
+            android:textSize="22.0sp" />
+
+        <Button
+            android:id="@+id/btn_story_search"
+            android:layout_width="53.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/search" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_story"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_world" />
+
+</LinearLayout>

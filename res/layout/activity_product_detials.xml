@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53.0dip"
+        android:background="@drawable/topnav" >
+
+        <Button
+            android:id="@+id/btn_stores_back"
+            android:layout_width="53.0dip"
+            android:layout_height="fill_parent"
+            android:background="@drawable/backbtn" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="商品列表"
+            android:textColor="#ffd7d7d7"
+            android:textSize="22.0sp" />
+
+        <Button
+            android:id="@+id/btn_storesearch"
+            android:layout_width="53.0dip"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/search" />
+    </RelativeLayout>
+
+  <GridView
+        android:id="@+id/gd_second"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:horizontalSpacing="5.0dip"
+        android:numColumns="3"
+        android:verticalSpacing="5.0dip" />
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="100.0dip">
+        <ImageView
+             android:id="@+id/img_story" 
+             android:background="@drawable/img_123"
+              android:layout_width="85.0dip" 
+              android:layout_height="fill_parent" 
+              android:layout_marginLeft="13.0dip" 
+              android:layout_marginTop="11.0dip" 
+              android:layout_marginBottom="11.0dip" 
+              android:scaleType="centerCrop" />
+        <TextView
+             android:textSize="12.0dip" 
+             android:textColor="#ffffffff"
+              android:id="@+id/tv_story_time" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_marginBottom="12.0dip"
+               android:text="123" 
+               android:layout_alignLeft="@+id/tv_story_title" 
+               android:layout_alignBottom="@id/img_story" />
+        <TextView 
+            android:textSize="16.0dip"
+             android:textColor="#ffffffff" 
+             android:id="@+id/tv_story_title"
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:layout_marginLeft="17.0dip" 
+              android:layout_marginTop="12.0dip" 
+              android:text="123" 
+              android:layout_toRightOf="@+id/img_story" 
+              android:layout_alignTop="@+id/img_story" />
+    </RelativeLayout>
+</LinearLayout>

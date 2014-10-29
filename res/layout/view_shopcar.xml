@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_linear_shop_cart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iv_shop_cart_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10.0dip" />
+
+            <ImageView
+                android:id="@+id/iv_shop_cart"
+                android:layout_width="100.0dip"
+                android:layout_height="120.0dip"
+                android:layout_centerVertical="true"
+                android:layout_margin="10.0dip"
+                android:layout_toRightOf="@id/iv_shop_cart_remove" />
+
+            <TextView
+                android:id="@+id/tv_shop_cart_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="15.0dip"
+                android:layout_toRightOf="@id/iv_shop_cart"
+                android:singleLine="true"
+                android:textColor="#ffffffff" 
+                android:text="名称"/>
+
+            <TextView
+                android:id="@+id/tv_shop_cart_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_name"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_toRightOf="@id/iv_shop_cart"
+                android:singleLine="true"
+                android:text="颜色"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/tv_shop_cart_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_name"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_toRightOf="@id/tv_shop_cart_color"
+                android:singleLine="true"
+                android:text="尺寸"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/tv_shop_cart_price_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_color"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_toRightOf="@id/iv_shop_cart"
+                android:singleLine="true"
+                android:text="总价 : "
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/tv_shop_cart_price_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_color"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_toRightOf="@id/tv_shop_cart_price_name"
+                android:singleLine="true"
+                android:text="dfdf"
+                android:textColor="#ffd9450e" />
+
+            <TextView
+                android:id="@+id/tv_shop_cart_count"
+                android:layout_width="56.0dip"
+                android:layout_height="24.0dip"
+                android:layout_alignLeft="@id/tv_shop_cart_price_name"
+                android:layout_below="@id/tv_shop_cart_price_name"
+                android:layout_marginLeft="14.0dip"
+                android:layout_marginTop="6.299988dip"
+                android:background="@drawable/enterbound"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="数量"
+                android:textColor="#ffffffff" />
+
+            <ImageView
+                android:id="@+id/iv_shop_cart_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_price_name"
+                android:layout_marginRight="-20.0dip"
+                android:layout_toLeftOf="@id/tv_shop_cart_count"
+                android:background="@drawable/but_left_icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_shop_cart_count_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_price_name"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginTop="7.0dip"
+                android:layout_toRightOf="@id/tv_shop_cart_count"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="件"
+                android:textColor="#ffffffff" />
+
+            <Button
+                android:id="@+id/bt_buydelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/sendfor_btn2"
+                android:text="删除"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:id="@+id/iv_shop_cart_plub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_shop_cart_price_name"
+                android:layout_marginLeft="-10.0dip"
+                android:layout_toRightOf="@id/tv_shop_cart_count"
+                android:background="@drawable/but_right_icon"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="53.0dip"
+                    android:background="@drawable/topnav" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="X的活动"
+                        android:textColor="#ffd7d7d7"
+                        android:textSize="22.0sp" />
+
+                    <Button
+                        android:id="@+id/btn_back_x"
+                        android:layout_width="53.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/but_back" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="52.0dip"
+                    android:layout_marginTop="53.0dip"
+                    android:background="@drawable/allbackground"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_forfilter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="33.0dip"
+                        android:layout_marginLeft="16.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:background="@drawable/but_forfilter" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/x_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/allbackground" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

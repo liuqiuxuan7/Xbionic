@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_Time"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="按时间"/>
+     <item
+        android:id="@+id/action_Type"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="按类型"/>
+     <!--  <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+ -->
+</menu>

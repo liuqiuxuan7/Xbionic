@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/product_list" android:layout_width="fill_parent" android:layout_height="81.0dip">
+        <ImageView android:id="@+id/img_award" android:background="@drawable/img_12" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff919191" android:id="@+id/tv_award" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:text="123" android:layout_toRightOf="@id/img_award" android:layout_alignTop="@id/img_award" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff919191" android:id="@+id/tv_award_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="123" android:layout_below="@id/tv_award" android:layout_alignLeft="@id/tv_award" />
+    </RelativeLayout>
+</LinearLayout>

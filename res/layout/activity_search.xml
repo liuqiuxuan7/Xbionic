@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <FrameLayout
+        android:id="@id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="53.0dip"
+                    android:background="@drawable/topnav" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="搜索"
+                        android:textColor="#ffd7d7d7"
+                        android:textSize="22.0sp" />
+
+                    <Button
+                        android:id="@+id/btn_search_back"
+                        android:layout_width="53.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/but_back" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="61.0dip"
+                    android:layout_marginTop="53.0dip"
+                    android:background="@drawable/tmall_bg_furley" >
+
+                    <TextView
+                        android:id="@+id/ed_search"
+                        android:layout_width="fill_parent"
+                        android:layout_height="35.0dip"
+                        android:layout_marginLeft="16.0dip"
+                        android:layout_marginRight="16.0dip"
+                        android:layout_marginTop="10.0dip"
+                        android:background="@drawable/edit_bg"
+                        android:textSize="13.0dip" />
+
+                    <Button
+                        android:id="@+id/img_search"
+                        android:layout_width="67.0dip"
+                        android:layout_height="32.0dip"
+                        android:layout_marginLeft="18.0dip"
+                        android:layout_marginTop="12.0dip"
+                        android:background="@drawable/dropdown" />
+
+                    <ImageView
+                        android:id="@+id/shop_for_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="16.0dip"
+                        android:layout_marginTop="8.0dip"
+                        android:background="@drawable/btn_search" />
+
+                    <EditText
+                        android:id="@+id/edit_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35.0dip"
+                        android:layout_alignTop="@id/ed_search"
+                        android:layout_toLeftOf="@id/shop_for_search"
+                        android:layout_toRightOf="@id/img_search"
+                        android:background="@null"
+                        android:ems="10"
+                        android:hint="请输入产品关键字"
+                        android:inputType="text"
+                        android:maxLines="1" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <GridView
+                android:id="@+id/gd_search"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:horizontalSpacing="5.0dip"
+                android:numColumns="3"
+                android:verticalSpacing="5.0dip" />
+
+            <ListView
+                android:id="@+id/lv_search"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

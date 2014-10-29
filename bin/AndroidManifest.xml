@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imcore.xbionic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launch"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.imcore.xbionic.ui.LoadingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.LoaginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.SinaLoginActivity"
+            android:label="@string/title_activity_sina_login"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.QQLoginActivity"
+            android:label="@string/title_activity_qqlogin"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.BXLoginActivity"
+            android:label="@string/title_activity_bxlogin"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.RegisterMainActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.PhoneRegisterActivity"
+            android:label="@string/title_activity_phone_register" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.CollectiionActivity"
+            android:label="@string/title_activity_collectiion" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.CountSetActivity"
+            android:label="@string/title_activity_count_set" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.MasterActivity"
+            android:label="@string/title_activity_master" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.ShoppingTrolleyActivity"
+            android:label="@string/title_activity_shopping" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.ShareActivity"
+            android:label="@string/title_activity_share" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.ProductPurseActivity"
+            android:label="@string/title_activity_product_purse" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.MasterStoryActivity"
+            android:label="@string/title_activity_master_story" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.XActivity"
+            android:label="@string/title_activity_x" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.XIntroduceActivity"
+            android:label="@string/title_activity_xintroduce" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.AwareActivity"
+            android:label="@string/title_activity_aware" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.BionicProtoTypeActivity"
+            android:label="@string/title_activity_bionic_proto_type" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.ForgetPasswordActivity"
+            android:label="@string/title_activity_forget_password" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.ProductDetialsActivity"
+            android:label="@string/title_activity_product_detials" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.PurseMainActivity"
+            android:label="@string/title_activity_purse_main" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.XActivityDetials"
+            android:label="@string/title_activity_xactivity_detials" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.ProductCommentsActivity"
+            android:label="@string/title_activity_product_comments" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.PurseJieSuanActivity"
+            android:label="@string/title_activity_purse_jie_suan" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.BuyModifyAdressActivity"
+            android:label="@string/title_activity_buy_modify_adress" >
+        </activity>
+        <activity
+            android:name="com.imcore.xbionic.ui.CityActivity"
+            android:label="@string/title_activity_city" >
+        </activity>
+    </application>
+
+</manifest>

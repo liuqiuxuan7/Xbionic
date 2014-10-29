@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:background="@drawable/collect_list" >
+
+        <ImageView
+            android:id="@+id/img_collect"
+            android:layout_width="75.0dip"
+            android:layout_height="100.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="6.0dip"
+            android:background="@drawable/img_12"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_collect_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_collect"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="11.0dip"
+            android:layout_toRightOf="@+id/img_collect"
+            android:text="123"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@+id/tv_collect_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_collect_title"
+            android:layout_below="@+id/tv_collect_title"
+            android:layout_marginTop="3.0dip"
+            android:text="颜色：请点击查看详情"
+            android:textColor="#ffcfcfcf"
+            android:textSize="16.0dip" />
+
+        <TextView
+            android:id="@id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_collect_color"
+            android:layout_below="@+id/tv_collect_color"
+            android:layout_marginTop="3.0dip"
+            android:text="单价："
+            android:textColor="#ffcfcfcf"
+            android:textSize="16.0dip" />
+        <TextView 
+            android:id="@+id/tv_collection_cima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尺码:"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"/>
+
+       <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_collect" 
+            android:text="123"
+            android:textColor="#ffffffff"
+            android:textSize="16.0dip" 
+            android:layout_toRightOf="@+id/tv_collectaccount"/>
+
+        <TextView
+            android:id="@+id/tv_collectaccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textView3"
+            android:layout_alignBottom="@id/textView3"
+            android:layout_toRightOf="@id/textView3"
+            android:text="0.0元"
+            android:textColor="#ffe04b11"
+            android:textSize="16.0dip" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_collectaccount"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_collect_color"
+            android:layout_marginRight="8.0dip"
+            android:background="@drawable/but_shop"
+            android:text="刪除"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

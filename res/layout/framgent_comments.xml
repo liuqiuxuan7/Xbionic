@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lv_comments"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="6.0" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#ffffffff" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="6.0dip"
+            android:text="如有意见！可点击评论！" />
+
+        <Button
+            android:id="@+id/btn_comments"
+            android:layout_width="70.0dip"
+            android:layout_height="42.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginTop="6.0dip"
+            android:background="@drawable/but_shop"
+            android:text="评价"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+android:orientation="vertical" 
+android:background="@drawable/peoplebackground" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout 
+	android:background="@drawable/topnav" 
+	android:layout_width="fill_parent" 
+	android:layout_height="53.0dip">
+        <Button 
+		android:id="@+id/but_back" 
+		android:background="@drawable/backbtn" 
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent" />
+        <TextView 
+		android:textSize="22.0dip" 
+		android:textColor="#ffd7d7d7" 
+		android:gravity="center" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:text="登陆" />
+    </RelativeLayout>
+    <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1.0">
+        <TextView 
+		android:textSize="20sp"
+		android:textColor="#ffcfcfcf" 
+		android:gravity="center" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="36.0dip" 
+		android:text="无线增值服务应用，欢迎你！" />
+    </LinearLayout>
+    <LinearLayout 
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_weight="0.4">
+        <RelativeLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+            <EditText 
+			android:textColor="#ffffffff"
+			android:gravity="center" 
+			android:id="@+id/user_login"
+			android:background="@drawable/enterbound"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="25.0dip"
+			android:layout_marginTop="39.0dip" 
+			android:layout_marginRight="25.0dip"
+			android:hint="用户名" 
+			android:ems="10" />
+            <EditText 
+			android:textColor="#ffffffff" 
+			android:gravity="center" 
+			android:id="@+id/password_login" 
+			android:background="@drawable/enterbound" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="25.0dip" 
+			android:layout_marginTop="16.0dip" 
+			android:layout_marginRight="25.0dip" 
+			android:hint="请输入密码" 
+			android:ems="10" 
+			android:layout_below="@id/user_login" 
+			android:inputType="textPassword" />
+            <ImageView
+			android:background="@drawable/personpicture"
+			android:layout_width="40.0dip"
+			android:layout_height="40.0dip"
+			android:layout_marginLeft="40.0dip" 
+			android:layout_marginTop="40.0dip" />
+            <ImageView 
+			android:layout_width="40.0dip" 
+			android:layout_height="40.0dip"
+			android:layout_marginLeft="40.0dip" 
+			android:layout_marginTop="19.0dip" 
+			android:src="@drawable/keypicture" 
+			android:layout_below="@id/user_login" />
+            <Button 
+			android:id="@+id/but_enter" 
+			android:background="@drawable/go_tribe"
+			android:layout_width="fill_parent"
+			android:layout_height="46.0dip" 
+			android:layout_marginLeft="25.0dip" 
+			android:layout_marginTop="29.0dip" 
+			android:layout_marginRight="25.0dip" 
+			android:layout_below="@id/password_login" />
+            <Button 
+			android:id="@+id/btn_forgetpw" 
+			android:background="@drawable/passwordpicture" 
+			android:layout_width="wrap_content" 
+			android:layout_height="20.0dip" 
+			android:layout_marginLeft="25.0dip" 
+			android:layout_marginTop="19.0dip" 
+			android:layout_below="@id/but_enter" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

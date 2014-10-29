@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:background="@drawable/allbackground" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout 
+        android:id="@id/relativeLayout1" 
+        android:background="@drawable/topnav" 
+        android:layout_width="fill_parent" 
+        android:layout_height="53.0dip">
+        <Button android:id="@+id/btn_shareset" 
+            android:background="@drawable/but_back" 
+            android:layout_width="53.0dip" 
+            android:layout_height="fill_parent" />
+        <TextView android:textSize="22.0sp" 
+            android:textColor="#ffd7d7d7" 
+            android:gravity="center" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:text="分享设置" />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:id="@id/relativeLayout2" 
+        android:background="@drawable/expert_edit1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="8.0dip" 
+        android:layout_marginTop="22.0dip" 
+        android:layout_marginRight="8.0dip" 
+        android:layout_below="@id/relativeLayout1" 
+        android:layout_alignParentLeft="true">
+        <TextView 
+            android:textSize="17.0dip" 
+            android:id="@id/textView2" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="16.0dip" 
+            android:layout_marginTop="10.0dip" 
+            android:text="新浪微博分享" />
+        <TextView 
+            android:textSize="17.0dip" 
+            android:id="@id/textView1" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="16.0dip" 
+            android:hint="腾讯微博分享" 
+            android:layout_alignParentLeft="true" 
+            android:layout_centerVertical="true" />
+        <TextView 
+            android:textSize="17.0dip" 
+            android:id="@id/textView3" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="120.0dip" 
+            android:hint="微信分享" 
+            android:layout_below="@id/textView1" 
+            android:layout_alignLeft="@id/textView1" />
+        <Button 
+            android:id="@id/button1" 
+            android:background="@drawable/but_balan" 
+            android:layout_width="13.0dip" 
+            android:layout_height="20.0dip" 
+            android:layout_marginTop="2.0dip" 
+            android:layout_marginRight="16.0dip" 
+            android:layout_alignTop="@id/textView2" 
+            android:layout_alignParentRight="true" />
+        <Button 
+            android:background="@drawable/but_balan" 
+            android:layout_width="13.0dip" 
+            android:layout_height="20.0dip" 
+            android:layout_marginRight="16.0dip" 
+            android:layout_alignTop="@id/textView3" 
+            android:layout_alignParentRight="true" />
+        <Button 
+            android:background="@drawable/but_balan" 
+            android:layout_width="13.0dip" 
+            android:layout_height="20.0dip" 
+            android:layout_marginRight="16.0dip" 
+            android:layout_alignParentRight="true" 
+            android:layout_centerVertical="true" />
+        <TextView 
+            android:textSize="17.0dip" 
+            android:id="@+id/tex_v" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginRight="5.0dip" 
+            android:text="已绑定" 
+            android:layout_toLeftOf="@id/button1" 
+            android:layout_alignBottom="@id/textView2" />
+    </RelativeLayout>
+</RelativeLayout>
